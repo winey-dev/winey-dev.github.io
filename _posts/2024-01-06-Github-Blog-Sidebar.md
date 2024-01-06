@@ -1,6 +1,6 @@
 ---
 title: Github 블로그 사이드 메뉴 배경 이미지 변경
-date: 2024-01-06 17:16:00 +0900
+date: 2024-01-06 21:26:00 +0900
 categories: [Github Blog]
 tags: [Github Blog]     # TAG names should always be lowercase
 ---
@@ -57,8 +57,8 @@ background: [색상] var(--sidebar-bg);
 ## 변경하는 부분 
 
 테마 변경 시 `--sidebar-bg` 변수의 색상만 변경되는 것을 위에서 확인했습니다..<br>
-해당 변수는 `/_sass/colors/` 폴더 안에 각각 `typography-dark.scss`와 `typography-light.scss` 파일에 선언되어 있는것을 확인 할 수 있습니다.<br>
-이제 해당 파일에 각각 image를 설정을 위한 변수를 추가하고 해당 설정을 CSS에 추가만 하면 됩니다.
+해당 변수는 `/_sass/colors/` 폴더 안에 각각 `typography-dark.scss`와 `typography-light.scss` 파일에 선언되어 있음으로 해당 파일에서 수정이 필요합니다.<br>
+이제 해당 파일에 각각 image 설정을 위한 변수를 추가하고 해당 설정을 CSS에 추가 하면 됩니다.
 
 ### 배경 이미지 변수 추가
 ```scss
@@ -87,8 +87,6 @@ background: [색상] var(--sidebar-bg);
   background-repeat: no-repeat; /*이미지의 size가 보여질 부분의 사이즈와 다른 경우 이미지가 반복하여 나오는데, 반복하지 않겠다*/
   /* background: var(--sidebar-bg); 기존 내용 주석 */
 ```
-<br>
-<br>
 
 ### Light Mode
 
