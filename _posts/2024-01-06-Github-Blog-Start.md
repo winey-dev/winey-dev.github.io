@@ -1,6 +1,6 @@
 ---
 title: Github 블로그 시작
-date: 2024-01-06 16:34:00 +0900
+date: 2024-01-06 17:16:00 +0900
 categories: [Github Blog]
 tags: [Github Blog]     # TAG names should always be lowercase
 ---
@@ -9,12 +9,12 @@ tags: [Github Blog]     # TAG names should always be lowercase
 
 안녕하세요. Winey 입니다.<br>
 블로그 첫 포스트에서 Github 블로그를 만들면서 들었던 생각과 블로그를 배포하는 과정에서 발생했던 문제를 공유해보겠습니다.<br>
-제가 사용하고 있는 blog theme는 [jekyll chirpy theme(v6.3.1)](https://github.com/cotes2020/jekyll-theme-chirpy) 입니다.<br>
+제가 사용하고 있는 블로그 테마는 [jekyll chirpy theme(v6.3.1)](https://github.com/cotes2020/jekyll-theme-chirpy) 입니다.<br>
 <br>
 
 # Github 블로그 배포
 
-깃 블로그를 배포하면서 다른 포스트들도 많이 참고 하였고 배포하면서 실제로 느낀 것을 공유해보자 합니다. <br>
+깃 블로그를 배포하면서 다른 포스트들도 많이 참고 하였고 배포하면서 느낀 것을 공유해보자 합니다. <br>
 <br>
 
 ## Github 블로그 배포 순서
@@ -30,6 +30,7 @@ tags: [Github Blog]     # TAG names should always be lowercase
 2. Github Theme 설정 
 3. Ruby && Jekyll 설치
 <br>
+
 2,3 순서를 변경한 이유는 Jekyll Theme에서 Setup Ruby 버전이 명시 되어있다는 점 입니다.<br>
 명시된 버전을 동일하게 사용하는 것이 조금이라도 오류를 줄이는 방법이 아닐까 생각합니다.<br>
 제가 사용하고 있는 chirpy theme (v6.3.1)의 내용을 기준으로 아래와 같이 명시 되어 있습니다.<br>
@@ -37,11 +38,10 @@ tags: [Github Blog]     # TAG names should always be lowercase
 ```yaml
 # {my_blog_local_repo}/.github/workflows/pages-deploy.yml
 - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: "3.2"
+  uses: ruby/setup-ruby@v1
+  with:
+    ruby-version: "3.2"
 ```
-<br>
 다른 jekyll theme의 Repository도 확인해보니 동일한 경로에 배포를 위한 yml이 있으니 해당 yml 파일을 참고하시면 될 것 같습니다.<br>
 <br>
 
@@ -58,8 +58,8 @@ tags: [Github Blog]     # TAG names should always be lowercase
 
    internal script reference /assets/js/dist/commons.min.js does not exit 
 ```
-<br>
 오류의 내용은 `{my_repo}/assets/js/dist/commons.min.js` 파일을 찾지 못했다는 오류입니다. <br>
+<br>
 아무래도 제가 초기 설정 과정에서 누락한 것이 있는 것 같아 `tools/init` script 내용을 다시 살펴 봅시다. <br>
 
 ```bash
@@ -89,14 +89,14 @@ init_files() {
   _sedi "/^assets.*\/dist/d" .gitignore
 }
 ```
-<br>
+
 아래의 명령어를 입력하는 것을 놓치고 말았네요 ㅠㅠ <br>
 
 ```bash
   # build assets
   npm i && npm run build
 ```
-<br>
+
 위 명령어를 하나씩 수행해 봅시다.<br>
 
 ```bash
@@ -169,7 +169,7 @@ assets/js/dist에 파일들이 정상적으로 생성되었습니다.!!!<br>
 
 # 마무리 
 항상 어떤 블로그를 사용 할까 고민하기를 반복하다가 깃 블로그를 시작하게 되었습니다.<br>
-글 재주가 없어 ... 이 글을 읽는 분들이 이해하기 어려울 수도 있지만 계속 블로그를 작성하다보면 제 글 실력도 올라가지 않을까요 ?? <br>
+글 재주가 없어 ... 이 글을 읽는 분들이 이해하기 어려울 수도 있지만 계속 블로그를 작성하다보면 제 글 실력도 올라가지 않을까요 ??
 부디 그 날이 오기를 ㅠㅠ <br>
 <br>
 다음 포스트에서는 Chripy Theme를 커스터마이징 하는 방법에 대해서 다루어 볼까 합니다.<br> 
