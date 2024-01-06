@@ -12,6 +12,8 @@ tags: [Github Blog]     # TAG names should always be lowercase
 제가 사용하고 있는 블로그 테마는 [jekyll chirpy theme(v6.3.1)](https://github.com/cotes2020/jekyll-theme-chirpy) 입니다.<br>
 <br>
 
+---
+
 # Github 블로그 배포
 
 깃 블로그를 배포하면서 다른 포스트들도 많이 참고 하였고 배포하면서 느낀 것을 공유해보자 합니다. <br>
@@ -44,6 +46,8 @@ tags: [Github Blog]     # TAG names should always be lowercase
 ```
 다른 jekyll theme의 Repository도 확인해보니 동일한 경로에 배포를 위한 yml이 있으니 해당 yml 파일을 참고하시면 될 것 같습니다.<br>
 <br>
+
+---
 
 # Github 블로그 배포 실패 해결 사례
 
@@ -166,6 +170,8 @@ created assets/js/dist/misc.min.js in 221ms
 ```
 
 assets/js/dist에 파일들이 정상적으로 생성되었습니다.!!!<br>
+
+---
 
 # 마무리 
 항상 어떤 블로그를 사용 할까 고민하기를 반복하다가 깃 블로그를 시작하게 되었습니다.<br>
