@@ -5,7 +5,7 @@ categories: [Github Blog]
 tags: [Github Blog]     # TAG names should always be lowercase
 ---
 
-# Github 블로그 시작 
+## Github 블로그 시작 
 
 안녕하세요. Winey 입니다.<br>
 블로그 첫 포스트에서 Github 블로그를 만들면서 들었던 생각과 블로그를 배포하는 과정에서 발생했던 문제를 공유해보겠습니다.<br>
@@ -14,12 +14,12 @@ tags: [Github Blog]     # TAG names should always be lowercase
 
 ---
 
-# Github 블로그 배포
+## Github 블로그 배포
 
 깃 블로그를 배포하면서 다른 포스트들도 많이 참고 하였고 배포하면서 느낀 것을 공유해보자 합니다. <br>
 <br>
 
-## Github 블로그 배포 순서
+### Github 블로그 배포 순서
 
 보통 다른 Post에서 다루는 내용을 보면 아래의 순서로 이루어집니다.<br>
 1. Github ID 준비 
@@ -49,13 +49,13 @@ tags: [Github Blog]     # TAG names should always be lowercase
 
 ---
 
-# Github 블로그 배포 실패 해결 사례
+## Github 블로그 배포 실패 해결 사례
 
 `Linux`  `MacOS` 환경에서는 초기 세팅을 위한 Script를 제공 하지만 `Windows` 환경에서 초기 세팅 시 수동으로 설정 해줘야 합니다.<br>
 수동으로 설정 하는 만큼 저 역시 문제가 발생 하였고, 해당 문제를 해결 하는 과정을 공유 해보려고 합니다.<br>
 <br>
 
-## `/assets/js/dist/xxx.min.js  does not exit` 오류 문제
+### `/assets/js/dist/xxx.min.js  does not exit` 오류 문제
 
 ```
 * At _site/xxx.html:1:
@@ -173,7 +173,7 @@ assets/js/dist에 파일들이 정상적으로 생성되었습니다.!!!<br>
 
 ---
 
-# 마무리 
+## 마무리 
 항상 어떤 블로그를 사용 할까 고민하기를 반복하다가 깃 블로그를 시작하게 되었습니다.<br>
 글 재주가 없어 ... 이 글을 읽는 분들이 이해하기 어려울 수도 있지만 계속 블로그를 작성하다보면 제 글 실력도 올라가지 않을까요 ??
 부디 그 날이 오기를 ㅠㅠ <br>
