@@ -31,13 +31,13 @@ winey-dev.github.io> jekyll serve
 그런 상태에서 Theme 아이콘을 클릭하여 변경되는 내용을 우측 화면에서 확인 해보면 됩니다.<br>
 <br> 
 
-![_no](/assets/post/2024-01-06/mode_toggle.gif)
+![Desktop View](/assets/post/2024-01-06/mode_toggle.gif)
 
 > 이 블로그 포스팅 당시 이미 배경 이미지를 변경하여 해당 영상은 Chripy demo 싸이트를 이용했습니다.
 <br>
 
-![_no](/assets/post/2024-01-06/light_html_css.png)
-![_no](/assets/post/2024-01-06/dark_html_css.png)
+![Desktop View](/assets/post/2024-01-06/light_html_css.png)
+![Desktop View](/assets/post/2024-01-06/dark_html_css.png)
 
 dark mode 전환 시 html에서 달라지는 요소는 `data-mode`가 추가되는 것이고
 
@@ -92,10 +92,10 @@ background: [색상] var(--sidebar-bg);
 
 ### Light Mode
 
-![_no](/assets/post/2024-01-06/light_view.jpg)
+![Desktop View](/assets/post/2024-01-06/light_view.jpg)
 
 ### Dark Mode
-![_no](/assets/post/2024-01-06/dark_view.jpg)
+![Desktop View](/assets/post/2024-01-06/dark_view.jpg)
 
 
 ## 마무리 
