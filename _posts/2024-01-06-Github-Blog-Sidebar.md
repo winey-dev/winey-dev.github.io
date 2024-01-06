@@ -31,7 +31,7 @@ winey-dev.github.io> jekyll serve
 그런 상태에서 Theme 아이콘을 클릭하여 변경되는 내용을 우측 화면에서 확인 해보면 됩니다.<br>
 <br> 
 
-![_no](assets/post/2024-01-06/mode_toggle.gif)
+![_no](/assets/post/2024-01-06/mode_toggle.gif)
 
 > 이 블로그 포스팅 당시 이미 배경 이미지를 변경하여 해당 영상은 Chripy demo 싸이트를 이용했습니다.
 <br>
