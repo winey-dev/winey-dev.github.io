@@ -20,4 +20,5 @@ tags: [windows, wsl, Linux, C, Golang, Docker, Kuberntes, omy-zsh, WSL2]     # T
 * Windows에서 Linux 개발 환경 구축하기 시리즈 4 (C 개발 환경 꾸리기)
 * Windows에서 Linux 개발 환경 구축하기 시리즈 5 (Golang 개발 환경 꾸리기)
 * Windows에서 Linux 개발 환경 구축하기 시리즈 6 (docker,kubernetes 관련 명령어 설치)
+
 ---
