@@ -7,6 +7,7 @@ tags: [windows, wsl, Linux, C, Golang, Docker, Kuberntes, omy-zsh, WSL2]     # T
 
 ## 목표 
 
+안녕하세요. Winey 입니다.<br>
 이번 시리즈를 시작하며 목표하는 것은 Windows 환경에서 Linux 개발 환경을 꾸리는 것입니다.<br>
 <br>
 `ssh client(xshell, putty, window terimal)`를 사용하여 접속이 가능하게 하고 `Golang`, `C` 개발 환경 구축 및 `kubernetes` 사용 환경을 꾸리는 방법에 대해서 포스팅 하려고 합니다.<br>
