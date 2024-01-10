@@ -16,7 +16,7 @@ tags: [windows, wsl, Linux, C, Golang, Docker, Kuberntes, omy-zsh, WSL2]     # T
 ---
 ## 시리즈
 * Windows에서 Linux 개발 환경 구축하기 시리즈 1 (시작하며)
-* Windows에서 Linux 개발 환경 구축하기 시리즈 2 (WSL2 활성화 및 Oracle Linux 설치)
+* Windows에서 Linux 개발 환경 구축하기 시리즈 2 (WSL2 설치 및 Oracle Linux 설치)
 * Windows에서 Linux 개발 환경 구축하기 시리즈 3 (oh-my-zsh 설치 및 theme 설치)
 * Windows에서 Linux 개발 환경 구축하기 시리즈 4 (C 개발 환경 꾸리기)
 * Windows에서 Linux 개발 환경 구축하기 시리즈 5 (Golang 개발 환경 꾸리기)
