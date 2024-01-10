@@ -2,7 +2,7 @@
 title: Windows에서 Linux 개발 환경 구축하기 시리즈 2 (WSL2 설치 및 Oracle Linux 설치)
 date: YYYY-MM-DD HH:MM:DD +09:00
 categories: [Linux]
-tags: [windows, windows11, wsl, Linux, C, Golang, Docker, Kuberntes, omy-zsh, WSL2]     # TAG names should always be lowercase
+tags: [windows, windows11, wsl, Linux, C, Golang, Docker, Kuberntes, oh-my-zsh, WSL2]     # TAG names should always be lowercase
 ---
 
 ## 목표 
